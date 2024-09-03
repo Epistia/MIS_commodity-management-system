@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>re_2_order</class>
+ <widget class="QWidget" name="re_2_order">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>701</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0" rowspan="2" colspan="2">
+    <widget class="QWidget" name="widget" native="true"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QWidget" name="widget_3" native="true">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>*商品ID:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="2">
+       <widget class="QLineEdit" name="idLineEdit"/>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>名称：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4" colspan="2">
+       <widget class="QLineEdit" name="nameLineEdit"/>
+      </item>
+      <item row="0" column="6">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>数量：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7" colspan="2">
+       <widget class="QLineEdit" name="quantityLineEdit"/>
+      </item>
+      <item row="0" column="9">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>进价：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="10" colspan="2">
+       <widget class="QLineEdit" name="purchacepriceLineEdit"/>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>计划售价：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="sellinglineEdit"/>
+      </item>
+      <item row="1" column="3" colspan="2">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>供应商：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QComboBox" name="vendor"/>
+      </item>
+      <item row="1" column="6" colspan="2">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>保质期：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="8">
+       <widget class="QLineEdit" name="shelflifelineEdit"/>
+      </item>
+      <item row="1" column="9" colspan="2">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>时间：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="11">
+       <widget class="QDateEdit" name="dateEdit"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QWidget" name="widget_2" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="order_pbtn">
+        <property name="text">
+         <string>全商品信息</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="out_pbtn">
+        <property name="text">
+         <string>出售</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="but_pbtn">
+        <property name="text">
+         <string>进货</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="sale_pbtn">
+        <property name="text">
+         <string>注意事项</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>237</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QTableView" name="tableView"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

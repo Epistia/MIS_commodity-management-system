@@ -1,0 +1,16 @@
+release/main.o
+release/mainwindow.o
+release/re_1_info.o
+release/re_2_order.o
+release/re_3_store.o
+release/re_4_fina.o
+release/regist.o
+release/widget.o
+release/qrc_pho.o
+release/moc_mainwindow.o
+release/moc_re_1_info.o
+release/moc_re_2_order.o
+release/moc_re_3_store.o
+release/moc_re_4_fina.o
+release/moc_regist.o
+release/moc_widget.o
